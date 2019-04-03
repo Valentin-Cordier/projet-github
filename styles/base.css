@@ -14,6 +14,7 @@ html, body{
 .block{
   height: 800px;
   width: 100%;
+  color: white;
 }
 .section{
   height: 200px;
@@ -28,4 +29,8 @@ html, body{
   height: 150px;
   width: 100%;
   background-color: black;
+}
+h2{
+  text-align:center;
+  margin-top: 400px;
 }
