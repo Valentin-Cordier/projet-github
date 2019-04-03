@@ -7,6 +7,11 @@ html, body{
   height: 150px;
   width: 100%;
   background-color: black;
+  margin-top: 0;
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 20;
 }
 .block{
   height: 800px;
