@@ -1,20 +1,30 @@
 html, body{
  background: grey;
  margin: 0;
- padding; 0;
+ padding: 0;
 }
 .header{
   height: 150px;
   width: 100%;
+  display: table;
   background-color: black;
   color: white;
   position: fixed;
   z-index: 20;
 }
 .block{
+  display: block;
   height: 800px;
   width: 100%;
+  padding-top: 150px;
   color: white;
+}
+h1{
+ text-align: center;
+}
+p{
+  text-align:center;
+  padding: 50px;
 }
 .section{
   height: 200px;
@@ -29,8 +39,4 @@ html, body{
   height: 150px;
   width: 100%;
   background-color: black;
-}
-h2{
-  text-align:center;
-  margin-top: 400px;
 }
