@@ -2,6 +2,10 @@ html, body{
  background: grey;
  margin: 0;
  padding: 0;
+ 
+}
+#windows-content{
+  min-height: calc(102vh - 190px);
 }
 .header{
   height: 150px;
@@ -18,7 +22,7 @@ html, body{
   padding-top: 150px;
   color: white;
 }
-h1{
+h1, h5{
  text-align: center;
 }
 p{
@@ -39,4 +43,5 @@ p{
   height: 150px;
   width: 100%;
   background-color: black;
+  color: white;
 }
