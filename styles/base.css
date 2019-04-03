@@ -3,6 +3,9 @@ html, body{
   padding: 0;
   background-color: grey;
 }
+#windows-content{
+  min-height: calc(102vh - 190px);
+}
 .header{
   height: 150px;
   width: 100%;
@@ -12,12 +15,13 @@ html, body{
   z-index: 20;
 }
 .block{
+  display: block;
   height: 800px;
   width: 100%;
   padding-top: 150px;
   color: white;
 }
-h1{
+h1, h5{
  text-align: center;
 }
 p{
@@ -28,6 +32,7 @@ p{
   height: 200px;
   width: 100%;
   background-color: black;
+  color: white;
 }
 .block2{
   height:900px;
@@ -37,4 +42,5 @@ p{
   height: 150px;
   width: 100%;
   background-color: black;
+  color: white;
 }
