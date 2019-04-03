@@ -1,8 +1,8 @@
 html, body{
+
  background: grey;
  margin: 0;
  padding: 0;
- 
 }
 #windows-content{
   min-height: calc(102vh - 190px);
