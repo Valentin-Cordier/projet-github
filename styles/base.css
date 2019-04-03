@@ -1,0 +1,26 @@
+html, body{
+ background: grey;
+}
+.header{
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+.block{
+  height: 800px;
+  width: 100%;
+}
+.section{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+.block2{
+  height:900px;
+  width: 100%;
+}
+.footer{
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
